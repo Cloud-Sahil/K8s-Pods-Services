@@ -18,4 +18,4 @@ spec:
       ports: 
         - containerPort: 80
 ~~~
-### nginx (image)
+### Ex. nginx (image)
