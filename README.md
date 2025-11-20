@@ -105,3 +105,7 @@ kubectl get svc
 ~~~sh
 kubectl get svc -o wide
 ~~~
+## 9. CURL 
+~~~sh
+curl <cluster ip>
+~~~
