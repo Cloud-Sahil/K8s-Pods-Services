@@ -100,3 +100,8 @@ kubectl apply -f service.yaml
 ~~~sh
 kubectl get svc
 ~~~
+
+## 8. Check All Services In Details
+~~~sh
+kubectl get svc -o wide
+~~~
