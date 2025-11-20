@@ -1,4 +1,4 @@
-# Kubernetes-Pods
+# Kubernetes Pods & Services
 
 ## 1. Write Pod File =
 ~~~sh
