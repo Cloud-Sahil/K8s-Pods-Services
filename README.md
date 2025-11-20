@@ -1,6 +1,6 @@
 # Kubernetes-Pods
 
-## Write Pod File =
+## 1. Write Pod File =
 ~~~sh
 nano pod.yaml
 ~~~
