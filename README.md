@@ -99,3 +99,8 @@ spec:
     port: 80
     targetPort: 80
 ~~~
+
+## 5. Apply Service Yaml File
+~~~sh
+kubectl apply -f service.yaml
+~~~
