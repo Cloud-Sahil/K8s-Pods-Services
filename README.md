@@ -44,3 +44,5 @@ kubectl apply -f pod.yaml -n dev
 ~~~sh
 kubectl get pods
 ~~~
+
+## 4. Write Service File =
