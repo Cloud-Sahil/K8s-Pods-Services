@@ -49,6 +49,9 @@ kubectl get pods
 
 ### 1. ClusterIP Yaml File
 ~~~sh
+nano service.yaml
+~~~
+~~~sh
 apiVersion: v1
 kind: Service
 metadata:
@@ -63,6 +66,9 @@ spec:
 ~~~
 
 ### 2. NodePort Yaml File 
+~~~sh
+nano service.yaml
+~~~
 ~~~sh
 apiVersion: v1
 kind: Service
@@ -80,6 +86,9 @@ spec:
 ~~~
 
 ### 3. LoadBalancer
+~~~sh
+nano service.yaml
+~~~
 ~~~sh
 apiVersion: v1
 kind: Service
