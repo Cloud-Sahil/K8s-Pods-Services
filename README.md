@@ -46,11 +46,11 @@ kubectl get pods
 ~~~
 
 ## 4. Write Service File =
-
-### 1. ClusterIP Yaml File
 ~~~sh
 nano service.yaml
 ~~~
+#### Ex.1. ClusterIP Yaml File
+
 ~~~sh
 apiVersion: v1
 kind: Service
@@ -65,10 +65,8 @@ spec:
        targetPort: 80
 ~~~
 
-### 2. NodePort Yaml File 
-~~~sh
-nano service.yaml
-~~~
+#### Ex.2. NodePort Yaml File 
+
 ~~~sh
 apiVersion: v1
 kind: Service
@@ -85,10 +83,8 @@ spec:
   type: NodePort
 ~~~
 
-### 3. LoadBalancer
-~~~sh
-nano service.yaml
-~~~
+#### Ex.3. LoadBalancer
+
 ~~~sh
 apiVersion: v1
 kind: Service
