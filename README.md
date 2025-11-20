@@ -32,7 +32,12 @@ kubectl apply -f pod.yaml
 kubectl get pods
 ~~~
 
-## 4. Write Service File =
+## 4. Check All Pods In Details
+~~~sh
+kubectl get pods -o wide
+~~~
+
+## 5. Write Service File =
 ~~~sh
 nano service.yaml
 ~~~
@@ -87,7 +92,11 @@ spec:
     targetPort: 80
 ~~~
 
-## 5. Apply Service Yaml File
+## 6. Apply Service Yaml File
 ~~~sh
 kubectl apply -f service.yaml
+~~~
+## 7. Check Services
+~~~sh
+kubectl get svc
 ~~~
