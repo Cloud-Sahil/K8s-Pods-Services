@@ -19,3 +19,8 @@ spec:
         - containerPort: 80
 ~~~
 ### Ex. nginx (image)
+
+## 2. Check Pods 
+~~~sh
+kubectl get pods
+~~~
