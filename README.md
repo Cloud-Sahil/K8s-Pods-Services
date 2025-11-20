@@ -46,3 +46,51 @@ kubectl get pods
 ~~~
 
 ## 4. Write Service File =
+
+### 1. ClusterIP Yaml File
+~~~sh
+apiVersion: v1
+kind: Service
+metadata:
+  name: clusterip
+spec:
+  selector:
+     app: nginx
+  ports:
+     - protocol: TCP
+       port: 80
+       targetPort: 80
+~~~
+
+### 2. NodePort Yaml File 
+~~~sh
+apiVersion: v1
+kind: Service
+metadata:
+  name: np
+spec:
+  selector:
+     app: nginx
+  ports:
+     - protocol: TCP
+       port: 80
+       targetPort: 80
+       nodePort: 31111
+  type: NodePort
+~~~
+
+### 3. LoadBalancer
+~~~sh
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-lb-service
+spec:
+  type: LoadBalancer
+  selector:
+    app: my-app
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 80
+~~~
