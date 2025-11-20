@@ -1,6 +1,6 @@
 # Kubernetes Pods & Services
 
-## 1. Write Pod File =
+## 1. Write Pod Yaml File =
 ~~~sh
 nano pod.yaml
 ~~~
@@ -37,7 +37,7 @@ kubectl get pods
 kubectl get pods -o wide
 ~~~
 
-## 5. Write Service File =
+## 5. Write Service Yaml File =
 ~~~sh
 nano service.yaml
 ~~~
